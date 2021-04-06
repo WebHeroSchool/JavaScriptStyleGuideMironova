@@ -79,8 +79,11 @@
 
 
 `  var superman = {
+
     defaults: { clark: 'kent' },
+
     hidden: true
+
   };`
 
 
@@ -88,8 +91,11 @@
 
 
 `  var superman = {
+
     default: { clark: 'kent' },
+
     private: true
+
   };`
 
 
@@ -102,7 +108,9 @@
 
 
 `  var superman = {
+
     type: 'alien'
+
   };`
 
 
@@ -110,7 +118,9 @@
 
 
 `  var superman = {
+
     class: 'alien'
+
   };`
 
 
@@ -130,9 +140,13 @@
 
 
 `  var superman = {
+
     defaults: { clark: 'kent' },
+
     type: 'alien',
+
     hidden: true
+
   };`
 
 
@@ -152,11 +166,14 @@
 **Хорошо**
 
 
-`  var vegetables;
-  Плохо
-  var ovoschi;
-  var rrfgov;`
+ `var vegetables;`
 
+**Плохо**
+
+`  var ovoschi;
+
+  var rrfgov;
+`
 
 ## 3. Функции
 
@@ -171,7 +188,9 @@
 
 
 `  function editName() {
+
     // тело функции
+
   };`
 
 
@@ -179,7 +198,9 @@
 
 
 `  function pravkaspiska() {
+
     // тело функции
+
   };`
 
 
@@ -190,7 +211,9 @@
 
 
 `  var arr = ['Яблоко', 'Апельсин', 'Груша'].forEach(function (item, i, arr) {
+
     alert(i + ': ' + item + ' (массив:' + arr + ')');
+
   });`
 
 
@@ -206,9 +229,13 @@
 
 
 `  if (age < 98) {
+
     for (var i = 0, iMax = items.length; i < iMax; ++i) {
+
       // тело цикла
+
     }
+
   }`
 
 
@@ -216,9 +243,13 @@
 
 
 `  if (age < 98) {
+
   for (var i = 0, iMax = items.length; i < iMax; ++i) {
+
   // тело цикла
+
   }
+
   }`
 
 
@@ -232,13 +263,19 @@
 
 
 `  var i;
+
   var iMax = items.length;
+
   for (i = 0; i < iMax, ++i) {
+
     // тело цикла
+
   }
 
   function showName() {
+
     // тело функции
+
   }`
 
 
@@ -246,13 +283,19 @@
 
 
 `  var i;
+
   var iMax = items.length;
 
   for (i = 0; i < iMax, ++i) {
+
     // тело цикла
+
   }
+
   function showName() {
+
     // тело функции
+
   }`
 
 
@@ -266,7 +309,9 @@
 
 
 `  function edit(name, age) {
+
     // тело функции
+
   }`
 
 
@@ -274,7 +319,9 @@
 
 
 `  function edit (name,age) {
+
     // тело функции
+
   }`
 
 
@@ -285,7 +332,9 @@
 
 
 `  function (name, age) {
+
     // тело функции
+
   }`
 
 
@@ -293,7 +342,9 @@
 
 
 `  function(name,age) {
+
     // тело функции
+
   }`
 
 
@@ -304,7 +355,9 @@
 
 
 `  if (age < 100) {
+
     // тело цикла
+
   }`
 
 
@@ -312,7 +365,9 @@
 
 
 `  if (age<100) {
+
     // тело цикла
+
   }`
 
 
@@ -326,9 +381,13 @@
 
 
 `  function edit(name, age) {
+
     if (age < 100) {
+
       // тело цикла
+
     }
+
   }`
 
 
@@ -336,8 +395,11 @@
 
 
 `  function edit(name, age)
+
   {
+
     if (age < 100) {/*тело цикла*/}
+
   }`
 
 
@@ -351,6 +413,7 @@
 
 
 `  var string = 'строка';
+
   var phrase = "you're next";`
 
 
@@ -370,6 +433,7 @@
 
 
 `  alert('Привет');
+
   alert('Мир');`
 
 
@@ -377,6 +441,7 @@
 
 
 `  alert('Привет')
+
   alert('Мир')`
 
 
@@ -394,6 +459,7 @@
 
 
 `  /* Пример комментария.
+
   Многострочного комментария.
   */`
 
@@ -405,6 +471,7 @@
 
 
 `  /*Пример комментария.
+
   Многострочного комментария.*/`
 
 
