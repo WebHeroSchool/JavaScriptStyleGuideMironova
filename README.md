@@ -237,27 +237,29 @@ var item = new Object();
 **Хорошо**
 
 ```
-  var i;
-  var iMax = items.length;
-  for (i = 0; i < iMax, ++i) {
-    // тело цикла
-  }
-  function showName() {
-    // тело функции
-  }`
+var i;
+var iMax = items.length;
+for (i = 0; i < iMax, ++i) {
+  // тело цикла
+}
+
+function showName() {
+  // тело функции
+}
 ```
 
 **Плохо**
 
 ```
-  var i;
-  var iMax = items.length;
-  for (i = 0; i < iMax, ++i) {
-    // тело цикла
-  }
-  function showName() {
-    // тело функции
-  }
+var i;
+var iMax = items.length;
+
+for (i = 0; i < iMax, ++i) {
+  // тело цикла
+}
+function showName() {
+  // тело функции
+}
 ```
 
 ## 5. Пробелы
